@@ -1,0 +1,11 @@
+Error reading string.txt: string.txt (The system cannot find the file specified)
+Error reading books.txt: books.txt (The system cannot find the file specified)
+ArrayList Methods:
+isEmpty: true
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.remove(ArrayList.java:504)
+	at edu.monmouth.hw3.HW3.main(HW3.java:59)
